@@ -82,7 +82,7 @@
     position: relative;
     margin-left: 25px;
     padding: 35px 0;
-    color: #FFFFFF;
+    color: var(--dark);
     font-weight: 500;
     outline: none;
     transition: .5s;
@@ -90,7 +90,7 @@
 
 .navbar .navbar-nav .nav-link:hover,
 .navbar .navbar-nav .nav-link.active {
-    color: #FFFFFF;
+    color: var(--primary);
 }
 
 .sticky-top.navbar .navbar-nav .nav-link {
